@@ -1,0 +1,17 @@
+from turtle import *
+
+s = Screen()
+hashtag = Turtle()
+hashtag.pensize(6)
+hashtag.penup()
+hashtag.goto((-100, 0))
+hashtag.down()
+hashtag.forward(200)
+hashtag.penup()
+hashtag.goto((-100, -50))
+hashtag.down()
+hashtag.forward(200)
+hashtag.penup()
+hashtag.goto()
+print(hashtag.position())
+s.mainloop()
