@@ -20,7 +20,7 @@ class AccountManager:
 
     def delete(self, _id):
         sql = f'''DELETE FROM accounts_v2 WHERE ID=?'''
-        cursor_exc(self.dbname, sql, _id)
+        cursor_exc(self.dbname, sql, (_id,))
 
     def delete_all(self):
         sql = f'''DELETE FROM accounts_v2'''

@@ -1,4 +1,4 @@
-from Daniel_personal.Chess_project.func import *
+from python_exercicios_pessoais.Chess_project.func import *
 
 onboard = on_the_board()
 while True:
