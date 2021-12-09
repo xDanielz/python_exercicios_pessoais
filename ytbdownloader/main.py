@@ -63,7 +63,7 @@ Rb1.place(x=50, y=170, height=25, width=120)
 Rb2 = Radiobutton(app, text="VÍDEO(MP4)", font=font, background='white', variable=option, value=False)
 Rb2.place(x=230, y=170, height=25, width=120)
 
-task = Thread(target=download)
-Button(app, text="BAIXAR", font=font, command=task.start).place(x=140, y=220, height=25, width=120)
+#task = Thread(target=download)
+Button(app, text="BAIXAR", font=font, command=download).place(x=140, y=220, height=25, width=120)
 
 app.mainloop()
